@@ -1,0 +1,96 @@
+body{
+			margin-left:20px;
+			padding: 0px;
+			font-family: 'Georgia', Times, Times New Roman, serif;
+			/*border:1px solid #dddddd;*/
+			align-content: center;
+			font-weight: bold;
+		}
+		header{
+			background-color: #dddddd;
+			width: 960px;
+		}
+		
+		.nav{
+			background-color: #ffffff;
+			color:#777777;
+			list-style:none;
+			text-align:right;
+			padding:20px 0 20px 0px;
+			border:1px solid #cccccc;
+			margin:0px;
+		}
+		.nav > li{
+			display:inline-block;
+			padding:0px 15px 0px 15px;
+			font-size: 12px;
+			position: relative;
+		}
+		.nav > li > a{
+			text-decoration: none;
+			color:#4aaaa5;
+		}
+		.nav > li > a:hover{
+			color:#000000;
+		}
+		.logo{
+			color:#ffffff;
+			float:left;
+			padding:16px;
+			font-size: 25px;
+			margin-left: 60px;
+			font-weight: bold;
+			background-color: #4aaaa5;
+			height:100%;
+		}
+		#contact_info{
+			margin-top: 20px;
+			margin-left: 60px;
+			padding:20px;
+			width: 650px;
+			border: 1px solid black;
+			border-color: grey;
+		}
+		h2 {
+			color:#4aaaa5;
+			font-size: 30px;
+		}
+		p {
+			font-family: 'Arial';
+			font-weight: lighter;
+			color: grey; 
+		}
+		#name {
+			width: 630px;
+			height: 25px;
+		}
+		#email {
+			width: 630px;
+			height: 25px;
+		}
+		#textarea {
+			width: 630px;
+		}
+		#submit_button {
+			background-color: #4aaaa5;
+			height: 40px;
+			width: 120px;
+			color: #ffffff;
+			font-size: 18px;
+			border:0; 
+		}
+		#footer {
+			width: 960px;
+			height: 40px;
+			margin-top: 10px;
+			position: relative;
+			padding-top: 24px;
+			padding-bottom: 10px;
+			text-align: center;
+			border-top: 8px solid #4aaaa5;
+			background-color: #666666;
+			color: #cccccc;
+			font-size: 14px;
+			font-family: Arial;
+			font-weight: lighter;
+		}
