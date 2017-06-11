@@ -1,123 +1,47 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Portfolio page</title>
-	<!--<link rel="stylesheet" type="text/css" href="assets\css\style.css">-->
-	<style type="text/css">
-		body{
-			margin-left:40px;
-			padding: 0px;
-			font-family: 'Georgia', Times, Times New Roman, serif;
-			border:1px solid #dddddd;
-			width:960px;
-			align-content: center;
-			font-weight: bold;
-			background-color: 
-
-		}
-		header{
-			background-color: #dddddd;
-		}
-		
-		.nav{
-			background-color: #ffffff;
-			color:#777777;
-			list-style:none;
-			text-align:right;
-			padding:20px 0 20px 0px;
-			border:1px solid #cccccc;
-			margin:0px;
-		}
-		.nav > li{
-			display:inline-block;
-			padding:0px 15px 0px 15px;
-			font-size: 12px;
-			position: relative;
-
-		}
-		.nav > li > a{
-			text-decoration: none;
-			color:#4aaaa5;
-		}
-		.nav > li > a:hover{
-			color:#000000;
-		}
-		.logo{
-			color:#ffffff;
-			float:left;
-			padding:16px;
-			font-size: 25px;
-			margin-left: 60px;
-			font-weight: bold;
-			background-color: #4aaaa5;
-			height:100%;
-		}
-		h1{
-			font-size: 25px;
-			color: #4aaaa5;
-		}
-		#main_content{
-			width:650px;
-			margin:0px auto;
-		}			}
-		#sub_content,
-		.bio_image{
-				float:left;
-			}
-		.bio_image{
-			width:200px;
-			height:200px;
-			margin-right: 10px;
-			border: 2px solid grey;
-			border-radius: 10px;
-		}
-		#sub_content{
-			width: 70%;
-		}
-	
-		
-</style>
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<!--title bar -->
-<header>
-	<div class="header">
-	
-		<section class="logo">
-			 Prathibha
-		</section>
-		<nav>
+<!--heading of the webpage -->
+	<div class="container">
+	<header>
+	<div class="logo">Prathibha</div>					
 			<ul class="nav">
 				<li><a href="#">About |</a></li>
 				<li><a href="#">Portfolio |</a></li>
-				<li><a href="#">Contact </a></li>
+				<li><a href="#" id="contact">Contact </a></li>
 			</ul>
-		</nav>
-	</div>
-</header>
-<!--about your self in div class-->
-	<div id="main_content">
-		
-		<section id="sub_content">
-			<h2>About Me</h2>
-			<img src="assets/images/Personal_photo.jpg" alt="personal" class="bio_image">
-			<p>My Name is Prathibha Chunchu. 
-			 I did my Masters in Mathematics in 2004.
-			  I use to teach Abacaus to kids.<br/> I got married in 2004.
-			  I have two wonderful kids boy and girl. I am a housewife. </p>
-		</section>
 	
-	<!--<section id="connect">
-		Connect with Me -->
-	<!--github Image -->
-		<!--<img src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png" alt="github" id="github"/> -->
-	<!--Linkdin image -->
-	<!--	<img src="http://www.coach-search.co.uk/assets/button_in.png" alt="linkdin" id="linkdin"/> -->
-	<!--Stackoverflow Image -->
-	<!--	<img src="https://cdn3.iconfinder.com/data/icons/inficons/512/stackoverflow.png" alt="stack" id="stactoverflow"/>
-	</section>
-	<footer>@copyright2017Prathibha</footer> -->
+</header>
+<!--Main content -->
+
+	<div class="box-size">
+		<div class="main_content">
+			<h2 class="heading">About Me</h2><hr>
+			<img src="assets/images/personal_photo.jpg" alt="Prathibha" class="image"/>
+			<p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda asperiores libero facere tempore necessitatibus aliquid, fugiat excepturi dicta, ex corporis quo molestiae quasi fugit, omnis. Iste nostrum quasi illum incidunt!
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda asperiores libero facere tempore necessitatibus aliquid, fugiat excepturi dicta, ex corporis quo molestiae quasi fugit, omnis. Iste nostrum quasi illum incidunt!
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda asperiores libero facere tempore necessitatibus aliquid, fugiat excepturi dicta, ex corporis quo molestiae quasi fugit, omnis. Iste nostrum quasi illum incidunt!</p>
+		</div>
+<!-- side section of social icons -->
+	<div class="connect_section">
+		<ul class="social_logos">
+			<h3 class="connect">Connect With Me</h3><hr>
+			
+
+			<li><img src="assets/images/github_square_black.png" alt="github" class="github"/></li>
+			<li><img src="assets/images/square-linkedin.png" alt="github" class="linkedin"/></li>
+			<li><img src="assets/images/stackoverflow-square.png" alt="github" class="stackoverflow"/></li>
+	</ul>
+	</div>
+
+	</div>
+<!--Footer of the web page -->
+	<footer>@copyright2017Prathibha</footer>
+
 
 </body>
 </html>
