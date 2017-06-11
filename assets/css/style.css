@@ -102,7 +102,33 @@ h2{
 	margin-right: 10px;
 	
 }
-
+/*Contact Information Styling*/
+#name,
+#email{
+    width: 90%;
+    height: 35px;
+    border:2px solid #dddddd;
+    margin-left: 20px;
+}
+#textarea{
+	width: 90%;
+	border:2px solid #dddddd;
+	 margin-left: 20px;
+}
+p{
+	color:grey;
+	font-weight: lighter;
+	font-family: 'Arial';
+	margin-left: 20px;
+}
+#submit_button{
+	background-color: #4aaaa5;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    margin-left: 20px;
+    border:none;
+}
 /*social logos section- side bar*/
 
 .social_logos > li{
