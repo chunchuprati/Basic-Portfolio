@@ -1,118 +1,50 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Contact page</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-	<!--
-	<style type="text/css">
-		body{
-			margin-left:40px;
-			padding: 0px;
-			font-family: 'Georgia', Times, Times New Roman, serif;
-			border:1px solid #dddddd;
-			width:960px;
-			align-content: center;
-			font-weight: bold;
-			background-color: 
-
-		}
-		header{
-			background-color: #dddddd;
-		}
-		
-		.nav{
-			background-color: #ffffff;
-			color:#777777;
-			list-style:none;
-			text-align:right;
-			padding:20px 0 20px 0px;
-			border:1px solid #cccccc;
-			margin:0px;
-		}
-		.nav > li{
-			display:inline-block;
-			padding:0px 15px 0px 15px;
-			font-size: 12px;
-			position: relative;
-
-		}
-		.nav > li > a{
-			text-decoration: none;
-			color:#4aaaa5;
-		}
-		.nav > li > a:hover{
-			color:#000000;
-		}
-		.logo{
-			color:#ffffff;
-			float:left;
-			padding:16px;
-			font-size: 25px;
-			margin-left: 60px;
-			font-weight: bold;
-			background-color: #4aaaa5;
-			height:100%;
-		}
-		#contact_info{
-			width:650px;
-			height:700px
-			margin-top:10px;
-			padding:20px
-			border:1px solid #cccccc ;
-
-
-		}
-		h2{
-			text-decoration: none;
-			color:#4aaaa5;
-			margin:20px;
-		}
-</style>
--->
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<!--title bar -->
-<header>
-	<div class="header">
-	
-		<section class="logo">
-			 Prathibha
-		</section>
-		<nav>
+<!--heading of the webpage -->
+	<div class="container">
+	<header>
+		<div class="logo">Prathibha</div>					
 			<ul class="nav">
 				<li><a href="#">About |</a></li>
 				<li><a href="#">Portfolio |</a></li>
-				<li><a href="#">Contact </a></li>
+				<li><a href="#" id="contact">Contact </a></li>
 			</ul>
-		</nav>
+	
+	</header>
+<!--Main content -->
+	<div class="box-size">
+		<div class="main_content">
+			<h2 class="heading">Contact Me</h2><hr>
+			<form id="form">
+				<p>Name</p>
+				<input type="text" id="name" placeholder="Prathibha"/>
+				<p>Email</p>
+				<input type="email" name="email" id="email" placeholder ="prathibha.panga@gmail.com"/>
+				<p>Message</p>
+				<textarea rows="10" cols="50" id="textarea"></textarea><br/>
+				<input type="submit" value="Submit" id="submit_button"/>
+			</form>
+		
+		</div>
+		<!-- side section of social icons -->
+		<div class="connect_section">
+			<ul class="social_logos">
+					<h3 class="connect">Connect With Me</h3><hr>
+					<li><img src="assets/images/github_square_black.png" alt="github" class="github"/></li>
+					<li><img src="assets/images/square-linkedin.png" alt="github" class="linkedin"/></li>
+					<li><img src="assets/images/stackoverflow-square.png" alt="github" class="stackoverflow"/></li>
+			</ul>
+		</div>
 	</div>
-</header>
-<!-- contact information -->
-	<div id="contact_info">
-		<h2>Contact</h2>
-		<p>Name</p>
-		<input type="text" id="name" placeholder="Prathibha"/>
-		<p>Email</p>
-		<input type="text" id="email" placeholder="Prathibha.Panga@gmail.com" />
-		<p>Message</p>
-		<textarea rows="10" cols="50" id="textarea"></textarea>
-		<p>
-		<input type="submit" value="Submit" id="submit_button"/>
-		</p>
-	</div>
-<!-- side section of social icons -->
-	<span id="connect_section">
-		<ul class="social_logos">
-			<p id="connect">Connect With Me</p>
-			<li><img src="github_square_black.png" alt="github" id="github"/></li>
-			<li><img src="square-linkedin.png" alt="github" id="linkedin"/></li>
-			<li><img src="stackoverflow-square.png" alt="github" id="stackoverflow"/></li>
-	</ul>
-	</span>
 <!-- footer of the web page -->
 	<div>
 		<footer id="footer">@copyright2017Prathibha</footer>
 	</div>
+</div>
 </body>
 </html>
