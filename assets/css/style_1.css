@@ -1,7 +1,15 @@
-* {
+*{
 	box-sizing: border-box;
+	/*
+	background-image: url("concrete-texture.png");
+	position: absolute;
+	z-index: -1;*/
 }
 body {	
+	/*
+	background-image: url("concrete-texture.png");
+	position: absolute;
+	z-index: -1;*/
 	background-color: #eee;
 }
 /*Main container*/
@@ -67,7 +75,7 @@ h2{
 }
 /*sub content about contact portfolio*/
 
-.main_content {
+.main_content{
 	width:60%;
 	float:left;
 	border:2px solid #dddddd;
@@ -76,17 +84,6 @@ h2{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	background-color: #ffffff;
-}
-.main_content1 {
-	width:60%;
-	float:left;
-	border:2px solid #dddddd;
-	padding:20px;
-	margin-left:60px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color: #ffffff;
-	height: 775px;
 }
 /*Paragraph Styling*/
 #para{
@@ -126,7 +123,6 @@ p{
 }
 #submit_button{
 	background-color: #4aaaa5;
-	color:#ffffff;
     height: 40px;
     width: 120px;
     font-size: 18px;
@@ -165,82 +161,40 @@ hr{
 	border-top:2px solid #dddddd;
 }
 /*Portfolio Images styling*/
-.main_content >div{
-	display:inline-block;
-}
-#image1 {
-	position: absolute;
-	z-index: 1;
-	margin-top: 20px;
+#image1,
+#image2,
+#image4
+	{
+	float: left;
+	margin: 20px;
 	width:250px;
-	height:200px;
-	top:200px;
-}
-#title1, #title2, #title3, #title4, #title5 {
+	height:150px;
+	}
+#image3,
+#image5{
+	clear: both;
+	margin: 20px;
+	width:250px;
+	height:150px;
+	}
+#image1,
+{
 	position:relative;
+	z-index:1;
+
+}
+#title1{
+	position: absolute;
 	z-index: 2;
-	/*bottom: 50px;*/
 	background-color: #4aaaa5;
 	color:#ffffff;
+	bottom:2px;
 	width: 250px;
 	height:50px;
 	text-align: center;
-	padding-top: 15px;
-	font-family: 'Arial';
-}
-#title1 {
-	top: 160px;
-}
-#title2 {
-	margin-left: 270px;
-	top: 110px;
-}
-#title3 {
-	top: 285px;
-}
-#title4 {
-	margin-left: 270px;
-	top: 235px;
-}
-#title5 {
-	top: 410px;
 }
 
-#image2	{
-	position: absolute;
-	z-index: 1;
-	margin-top: 20px;
-	margin-left: 270px;
-	width:250px;
-	height:200px;
-	top: 200px;
-}
 
-#image3 {
-	position: absolute;
-	z-index: 1;
-	margin-top: 20px;
-	width:250px;
-	height:200px;
-	top: 425px;
-}
-#image4 {
-	position: absolute;
-	z-index: 1;
-	margin-top: 20px;
-	margin-left: 270px;
-	width:250px;
-	height:200px;
-	top: 425px;
-}
-#image5{
-	position: absolute;
-	z-index: 1;
-	margin-top: 20px;
-	width:250px;
-	height:200px;
-	top: 650px;
-}
 /*footer styling */
 footer {
 	clear:both;
