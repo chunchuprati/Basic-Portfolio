@@ -188,23 +188,24 @@ hr{
 	text-align: center;
 	padding-top: 15px;
 	font-family: 'Arial';
+	opacity: .8;
 }
 #title1 {
-	top: 160px;
+	top: 150px;
 }
 #title2 {
 	margin-left: 270px;
-	top: 110px;
+	top: 100px;
 }
 #title3 {
-	top: 285px;
+	top: 275px;
 }
 #title4 {
 	margin-left: 270px;
-	top: 235px;
+	top: 225px;
 }
 #title5 {
-	top: 410px;
+	top: 400px;
 }
 
 #image2	{
